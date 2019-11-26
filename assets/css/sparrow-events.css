@@ -1,0 +1,33 @@
+
+.bgroxo{
+    background-color: #563d7c;
+}
+
+legend{
+    border-bottom: 1px solid;
+}
+.imgfeaturette{
+    width: 150px;
+    height: 150px;
+}
+.imgSecundario{
+    width: 500px;
+    height: 500px;
+}
+.jumbotron1{
+    background: #696470;
+}
+.imgEmpresa{
+    width: 600px;
+    height: 250px;
+}
+.imgLocalização{
+    width: 250;
+    height: 150;
+}
+.divEspaçamento{
+    margin: 15px;
+}
+.ButtonLocalização{
+    width: 320px;
+}

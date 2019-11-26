@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/sparrow-events.css">
+  <!--CSS padrão-->
+
+  <title>Sparrow Events - Cadastre-se</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bgroxo">
+    <a class="navbar-brand" href="index.html">Sparrow-Events</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Cadastre-se</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Eventos
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Acontecendo</a>
+            <a class="dropdown-item" href="#">Previstos</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Encerrados</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contato.html">Contato</a>
+        </li>
+    </ul>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </nav>
+  <!--1 row tem 12 colunas-->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>Seja bem vindo!</h1>
+        <p>Realize seu cadastro</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <fieldset>
+          <legend>Dados Pessoais</legend>
+          <div class="row">
+            <div class="col-sm-3">
+              <img class="imgfeaturette" src="assets/img/pessoa-icon-png-4.png">
+            </div>
+            <div class="col-sm-9">
+              <div class="form-group row">
+                <div class="col-sm-12">
+                  <label for="nome">Nome:</label>
+                  <input type="text" class="form-control" id="nome">
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-sm-3">
+                  <label for="DataNascimento">Data de nascimento:</label>
+                  <input type="date" class="form-control" id="DataNascimento">
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-sm-12">
+                  <label>Sexo:</label>
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="radiofeminino" name="radiosexo" class="custom-control-input">
+                    <label class="custom-control-label" for="radiofeminino">Feminino</label>
+                  </div>
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="radiomasculino" name="radiosexo" class="custom-control-input">
+                    <label class="custom-control-label" for="radiomasculino">Masculino</label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <div class="col-sm-4">
+                  <label for="formacao">Formação:</label>
+                  <select class="form-control" id="formacao">
+                    <option>Ensino Fundamental</option>
+                    <option>Ensino Médio</option>
+                    <option>Ensino Superior</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-sm-4">
+                  <label for="profissao">Profissão:</label>
+                  <select class="form-control" id="profissao">
+                    <option>Analista de Sistemas</option>
+                    <option>Dev. Frontend</option>
+                    <option>Dev. Backend</option>
+                    <option>Dev. FullStack</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-sm-3">
+                  <label for="CPF">CPF:</label>
+                  <input type="text" class="form-control" id="CPF">
+                </div>
+              </div>
+            </div>
+        </fieldset>
+        <!--FIM DO CONTAINER-->
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <fieldset>
+          <legend>Endereço</legend>
+          <div class="row">
+            <div class="col-sm-3">
+              <img class="imgfeaturette" src="assets/img/endereço.png">
+            </div>
+            <div class="col-sm-9">
+              <div class="form-group row">
+                <div class="col-sm-12">
+                  <label for="endereço">Endereço:</label>
+                  <input type="text" class="form-control" id="endereço">
+                </div>
+              </div>
+              <div class="form-group row">
+                  <div class="col-sm-2">
+                    <label for="Numero">Numero:</label>
+                    <input type="text" class="form-control" id="Numero">
+                  </div>
+                </div>
+              <div class="form-group row">
+                <div class="col-sm-12">
+                  <label for="complemento">Complemento:</label>
+                  <input type="text" class="form-control" id="complemento">
+                </div>
+              </div>
+              <div class="form-group row">
+                  <div class="col-sm-3">
+                    <label for="CEP">CEP:</label>
+                    <input type="text" class="form-control" id="CEP">
+                  </div>
+                </div>
+              <div class="form-group row">
+                  <div class="col-sm-5">
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" class="form-control" id="cidade">
+                  </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-5">
+                      <label for="bairro">Bairro:</label>
+                      <input type="text" class="form-control" id="bairro">
+                    </div>
+                  </div>
+              <div class="form-group row">
+                <div class="col-sm-2">
+                  <label for="estado">Estado:</label>
+                  <select class="form-control" id="estado">
+                    <option>AC</option>
+                    <option>AL</option>
+                    <option>AP</option>
+                    <option>AM</option>
+                    <option>BA</option>
+                    <option>CE</option>
+                    <option>DF</option>
+                    <option>ES</option>
+                    <option>GO</option>
+                    <option>MA</option>
+                    <option>MT</option>
+                    <option>MS</option>
+                    <option>MG</option>
+                    <option>PA</option>
+                    <option>PB</option>
+                    <option>PR</option>
+                    <option>PE</option>
+                    <option>PI</option>
+                    <option>RJ</option>
+                    <option>RN</option>
+                    <option>RS</option>
+                    <option>RO</option>
+                    <option>RR</option>
+                    <option>SC</option>
+                    <option>SP</option>
+                    <option>SE</option>
+                    <option>TO</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+        </fieldset>
+        <!--FIM DO CONTAINER-->
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+      </div>
+    </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <fieldset>
+        <legend>Contato</legend>
+        <div class="row">
+          <div class="col-sm-3">
+            <img class="imgfeaturette" src="assets/img/contact-us-icon.png">
+          </div>
+          <div class="col-sm-9">
+            <div class="form-group row">
+              <div class="col-sm-12">
+                <label for="e-mail">E-mail:</label>
+                <input type="email" class="form-control" id="e-mail">
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-sm-5">
+                <label for="Telefone">Telefone:</label>
+                <input type="tel" class="form-control" id="Telefone">
+              </div>
+            </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>

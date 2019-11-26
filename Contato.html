@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="pt-br" class="h-100">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
+
+  <link rel="stylesheet" href="assets/css/sparrow-events.css">
+  <!--CSS padrão-->
+
+  <title>PAGINA PADRÃO</title>
+</head>
+
+<body class="d-flex flex-column h-100">
+  <!--#region BARRA DE NAVEGAÇÃO-->
+  <nav class="navbar navbar-expand-lg navbar-dark bgroxo">
+    <a class="navbar-brand" href="#">Sparrow-Events</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Cadastre-se.html">Cadastre-se</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Eventos
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Acontecendo</a>
+            <a class="dropdown-item" href="#">Previstos</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Encerrados</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contato.html">Contato</a>
+        </li>
+      </ul>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </nav>
+  <!--#endregion BARRA DE NAVEGAÇÃO-->
+
+<!--#region MAIN-->
+  <main role="main" class="flex-shrink-0 mb-5 album py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="card mb-8 shadow-sm">
+            <img class="card-img-top" src="assets/img/empresa2.jpg" alt="Card image cap">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card mb-12 shadow-sm">
+            <!-- <img class="card-img-top imgLocalização" src="assets/img/locaalização.jpg" alt="Card image cap">Imagem localização-->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15052.545672622888!2d-40.0583559!3d-19.4065109!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb1e5bd7adb87b443!2sSenai!5e0!3m2!1sen!2sbr!4v1570744911755!5m2!1sen!2sbr"
+              width="320" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          </div>
+          <div class="btn-group ButtonLocalização">
+            <a href="https://www.google.com/maps/place/Senai/@-19.4065109,-40.0583559,15z/data=!4m5!3m4!1s0x0:0xb1e5bd7adb87b443!8m2!3d-19.4065109!4d-40.0583559"
+              target="_blanck">
+              <button type="button" class="btn btn-sm btn-outline-secondary ButtonLocalização">Como Chegar</button>
+            </a>
+          </div>
+        </div>
+        <div class="divEspaçamento">
+          <h5>Nosso Endereço: Rua Front End, Numero 3050 </h5>
+          <h4>Entre em contato conosco:</h4>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 border">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <fieldset>
+              <!--#region fieldset-->
+              <div class="row">
+                <div class="col-sm-2">
+                  <img class="imgfeaturette" src="assets/img/contact-us-icon.png">
+                </div>
+                <div class="col-sm-9">
+                  <div class="form-group row">
+                    <div class="col-sm-12">
+                      <label for="nome">Seu nome:</label>
+                      <input type="text" class="form-control" id="nome">
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <div class="col-sm-3">
+                      <label for="contato">Seu numero de contato:</label>
+                      <input type="tel" class="form-control" id="contato">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <div class="col-sm-12">
+                      <label for="E-mail">Seu E-mail:</label>
+                      <input type="email" class="form-control" id="E-mail">
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                      <div class="col-sm-12">
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" class="form-control" id="assunto">
+                      </div>
+                    </div>
+                  <!--<div class="form-group row">
+                    <div class="col-sm-4">
+                      <label for="assunto">Assunto:</label>
+                      <select class="form-control" id="assunto">
+                        <optgroup>Clique e selecione uma opção</optgroup>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                      </select>
+                    </div>
+                  </div>-->
+                  <div class="form-group row">
+                    <div class="col-sm-12">
+                      <label for="Mensagem">Mensagem:</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                  </div>
+                </div>
+            </fieldset>
+            <!--#region fieldset-->
+          </div>
+        </div>
+      </div>
+  </main>
+  <!--#region MAIN-->
+
+  <!--#region RODA PÉ DO SITE-->
+  <footer class="footer mt-auto py-3">
+    <div class="container">
+      <span>Coloque o conteúdo do sticky footer aqui.</span>
+    </div>
+  </footer>
+  <!--#endregion RODA PÉ DO SITE-->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
