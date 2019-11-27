@@ -1,0 +1,23 @@
+{
+  "name": "sparrow",
+  "version": "1.0.0",
+  "description": "Sistema de Eventos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaop3dro/sparrow.git"
+  },
+  "author": "João Pedro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joaop3dro/sparrow/issues"
+  },
+  "homepage": "https://github.com/joaop3dro/sparrow#readme",
+  "dependencies": {
+    "jquery-mask-plugin": "^1.14.16",
+    "toastr": "^2.1.4"
+  }
+}
