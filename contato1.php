@@ -70,7 +70,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <button type="submit" class="btn btn-success">Enviar Mensagem</button>
+                                    <button type="submit" id="btnEnviar" class="btn btn-success">Enviar Mensagem</button>
                                     <button type="reset" class="btn btn-link">Limpar formulário</button>
                                 </div>
                             </div>
@@ -83,6 +83,7 @@
     <!--#endMAIN-->
     <?php require_once 'shared/footer.php' ?>
     <?php require_once 'shared/scripts.php' ?>
+    <script src="assets/js/services/contatoService.js"></script>
 </body>
 
 </html>
