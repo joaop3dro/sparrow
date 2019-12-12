@@ -31,6 +31,7 @@
             },
             complete: function (data) {               
                 $("#btnEnviar").html('enviar');
+                window.location('index.html');
             }
         });
     });

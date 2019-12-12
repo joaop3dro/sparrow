@@ -47,7 +47,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label for="telefonecelular">Telefone celular</label>
-                                        <input name="telefonecelular" type="text" class="form-control celular_DDD" id="telefonecelular" required>
+                                        <input name="telefone" type="text" class="form-control celular_DDD" id="telefonecelular" required>
                                     </div>
                                 </div>
                             </div>
