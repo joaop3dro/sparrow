@@ -1,0 +1,26 @@
+{
+    "name": "senai/sparrow",
+    "description": "site de inscri\u0000\u0000o de eventos",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pedro-Joao",
+            "email": "55983396+Pedro-Joao@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "Source/"
+      },
+      "files": [
+          "source/config.php"
+      ]
+    },
+    "require": {
+        "phpmailer/phpmailer": "dev-master"
+    }
+}
