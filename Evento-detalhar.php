@@ -1,3 +1,7 @@
+<?php
+  require_once realpath(dirname(__FILE__).'/src/models/listaEventosModel.php'); 
+?>
+
 <!doctype html>
 <html lang="pt-br" class="h-100">
 
@@ -120,48 +124,22 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">Primeiro título de featurezinhas. <span class="text-muted">Supreendente,
-            não?!</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
-          semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-          commodo.</p>
+        <h2 class="featurette-heading"><span class="text-muted"></span></h2>
+        <p class="lead"></p>
       </div>
-      <div class="col-md-5">
-        <img class="featurette-image img-fluid mx-auto imgSecundario" alt="Generic placeholder image"
-          src="assets/img/tomorrawland detalhar 2.jpg">
-      </div>
+      <div class="container">
+            <div class="row">
+                <?php
+                   $conexao = EventoModel::listarPorId($_GET['id']); 
+                   echo  $evento['id'];
+                   var_dump($evento);?>
+                    <div class="col-sm-12">
+            
+                    </div>
+            </div>           
+        </div>
+        </div>
     </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Aêêê, moleque! <span class="text-muted">Tá legal ou não tá?</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
-          semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-          commodo.</p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <img class="featurette-image img-fluid mx-auto imgSecundario" alt="Generic placeholder image"
-          src="assets/img/tomorrawland detalhar 2.1.jpg">
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">E, por último, essa aqui. <span class="text-muted">Xeque-mate!</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
-          semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-          commodo.</p>
-      </div>
-      <div class="col-md-5">
-        <img class="featurette-image img-fluid mx-auto imgSecundario" alt="Generic placeholder image"
-          src="assets/img/tomorrawland detalhar 2.2.jpg">
-      </div>
-    </div>
-    <hr class="featurette-divider">
   </div>
   <!--#endregion CONTAINER-->
 
